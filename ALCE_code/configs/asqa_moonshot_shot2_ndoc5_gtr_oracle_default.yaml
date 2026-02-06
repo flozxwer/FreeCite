@@ -1,0 +1,12 @@
+---
+prompt_file: prompts/asqa_default.json
+eval_file: data/asqa_eval_gtr_top100_reranked_oracle.json
+shot: 2
+ndoc: 5
+dataset_name: asqa
+tag: oracle
+model: moonshot-v1-32k
+custom_api: true
+my_api_url: https://api.moonshot.cn/v1/chat/completions
+my_api_key: 
+max_length: 16384

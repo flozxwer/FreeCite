@@ -1,0 +1,12 @@
+---
+prompt_file: prompts/asqa_default.json
+eval_file: data/asqa_eval_dpr_top100.json
+shot: 2
+ndoc: 20
+dataset_name: asqa
+tag: dpr
+model: ep-20250123113406-7vzr5
+custom_api: true
+my_api_url: https://ark.cn-beijing.volces.com/api/v3/chat/completions
+my_api_key: 
+max_length: 16384

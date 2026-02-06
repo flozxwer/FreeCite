@@ -1,0 +1,11 @@
+---
+prompt_file: prompts/asqa_default.json
+eval_file: data/asqa_eval_dpr_top100.json
+shot: 2
+ndoc: 20
+dataset_name: asqa
+tag: dpr
+model: Qwen2.5_32B
+flask_api: true
+my_api_url: http://
+max_length: 16384

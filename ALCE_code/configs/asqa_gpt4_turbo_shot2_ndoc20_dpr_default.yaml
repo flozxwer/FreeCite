@@ -1,0 +1,9 @@
+---
+prompt_file: prompts/asqa_default.json
+eval_file: data/asqa_eval_dpr_top100.json
+shot: 2
+ndoc: 20
+dataset_name: asqa
+tag: dpr
+model: gpt-4-turbo
+openai_api: true
