@@ -10,12 +10,12 @@
         <img alt="arXiv Paper" src="https://img.shields.io/badge/Paper-arXiv-red">
     </a> -->
     &nbsp&nbsp
-    <a href="https://huggingface.co/datasets/lmc12345678/LMCBench_dataset">
+    <a href="https://huggingface.co/datasets/flozxwer/LMCMark">
         <img alt="HuggingFace Dataset" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000">
     </a>
 </p>
 
-> Note: The Hugging Face account is registered with an anonymous email and is accessed via the web link.
+<!-- > Note: The Hugging Face account is registered with an anonymous email and is accessed via the web link.-->
 
 We present LMCBench, an automated evaluation framework designed to reliably assess the citation capabilities of Large Language Models (LLMs). The framework utilizes a dataset containing over 2,400 query-response pairs across 20 diverse topics, with more than 29,000 citations. LMCBench ensures strict formatting requirements, allowing for automated comparison against ground truth citations.
 
