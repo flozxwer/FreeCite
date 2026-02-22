@@ -21,7 +21,7 @@ We present **FreeCite**, a judge-free evaluation benchmark that reframes citatio
 
 We benchmark **20** LLMs and four citation pipelines on FreeCite. Experiments demonstrate that FreeCite achieves a high model-level Pearson correlation (**0.8431**) with human judgments, substantially surpassing baselines such as ALCE (0.4951) and LongCite (0.6308). Among the evaluated models, GPT-4-turbo (59.87%) maintains a significant lead, while leading open-source models like DeepSeek-v3 have effectively closed the gap with mainstream commercial counterparts. FreeCite also exposes critical failure modes like distractor sensitivity often masked by aggregated metrics. We release both the dataset and toolkit to advance verifiable Retrieval-Augmented Generation (RAG) research.
 
-<img src="./figure/framework.png" style="display: block;margin: auto;clear: both;"/> 
+<img src="./figure/framework_v1.png" style="display: block;margin: auto;clear: both;"/> 
 
 ## Example test samples in the benchmark dataset
 
